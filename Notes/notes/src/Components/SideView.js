@@ -6,7 +6,7 @@ const sideView = props => {
         <nav>
             <h1>Lambda Notes</h1>
             <button>View Your Notes</button>
-            <button>Create New Button</button>
+            <button>+ Create New Button</button>
         </nav>
     )
 }

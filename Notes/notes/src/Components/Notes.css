@@ -1,0 +1,43 @@
+.notesContainer {
+    display: table-cell;
+    min-width: 450px;
+    vertical-align: top;
+    padding-left: 2%;
+    background-color: rgb(240, 236, 236);
+    border: 1px solid #A0A0A0;
+}
+
+.notesContainer h2 {
+    color: #4A494A;
+    margin-left: 1%;
+    margin-top: 50px;
+}
+
+.notesContainer .notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notesContainer .notes .note { 
+    border: 1px solid #959898;
+    background: white;
+    margin: 0 20px 30px 0;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 150px;
+}
+
+.notesContainer .notes h3 {
+    border-bottom: rgb(136, 126, 136);
+    margin-top: 5px;
+}
+
+.notesContainer .notes p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    display: block;
+    overflow: hidden;
+}

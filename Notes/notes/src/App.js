@@ -5,11 +5,11 @@ import './App.css';
 
 import SideView from './Components/SideView';
 //import Notes from './Components/Notes';
-import PreviewNotes from '';
-import CreateNotes from '';
-import ViewNotes from '';
-import DeleteNotes from '';
-import EditNotes from '';
+import PreviewNotes from './Components/PreviewNotes';
+import CreateNotes from './Components/CreateNotes';
+import ViewNotes from './Components/ViewNotes';
+import DeleteNotes from './Components/DeleteNotes';
+import EditNotes from './Components/Editnotes';
 
 class App extends Component {
   render() {
@@ -23,6 +23,7 @@ class App extends Component {
             <CreateNotes {...props} />
           }
         />
+
         <Route
           path='/'
           exact
@@ -42,6 +43,7 @@ class App extends Component {
           render={props =>
             <DeleteNotes {...props} />}
         />
+
         <Route
           path={`/note/edit/:id`}
           render={props =>

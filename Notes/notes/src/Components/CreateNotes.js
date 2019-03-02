@@ -19,7 +19,7 @@ class CreateNotes extends Component {
     addNew = (e) => {
         e.preventDefault();
         Axios
-            .post(`https://fe-notes.herokuapp.com/note/create`, this.state)
+            .post('https://fe-notes.herokuapp.com/note/create', this.state)
 
             .then((response) => {
 

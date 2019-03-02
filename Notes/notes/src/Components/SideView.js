@@ -1,14 +1,23 @@
 import React from 'react';
-import './SideView.css';
+import './SideView.css'
+import { NavLink } from 'react-router-dom';
 
-const sideView = props => {
+const Sideview = props => {
     return (
         <nav>
-            <h1>Lambda Notes</h1>
-            <button>View Your Notes</button>
-            <button>+ Create New Button</button>
+            <h1>Lambda<br />Notes</h1>
+            <NavLink
+                exact to='/'
+                className="nav_link"
+                activeStyle={{ color: 'silver' }}>View Your Notes</NavLink>
+
+            <NavLink
+                to='/create'
+                className="nav_link"
+                activeStyle={{ color: 'silver' }}> + Create New Note</NavLink>
         </nav>
     )
 }
 
-export default sideView;
+
+export default Sideview;

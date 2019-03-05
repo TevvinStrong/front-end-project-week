@@ -38,7 +38,7 @@ class EditNotes extends Component {
                 title: this.state.updatedTitle,
                 textBody: this.state.updatedText,
             })
-            .then((response) => {
+            .then((_response) => {
                 this.props.history.push(`/note/${this.props.match.params.id}`);
             })
             .catch(err => console.log(err));

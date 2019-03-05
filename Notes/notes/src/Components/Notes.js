@@ -3,11 +3,11 @@ import './Notes.css';
 import Axios from 'axios';
 
 import { Route } from 'react-router-dom';
-import PreviewNotes from './Components/';
-import CreateNotes from './Components/CreateNotes';
-import ViewNotes from './Components/';
-import DeleteNotes from './Components/DeleteNotes';
-import EditNotes from './Components/Editnotes';
+import PreviewNotes from './PreviewNotes';
+import CreateNotes from './CreateNotes';
+import ViewNotes from './ViewNotes';
+import DeleteNotes from './DeleteNotes';
+import EditNotes from './EditNotes';
 class Notes extends Component {
     constructor(props) {
         super(props);
@@ -58,7 +58,7 @@ class Notes extends Component {
                 <Route
                     path="/note/delete/:id"
                     render={props =>
-                        <DeleteNotes {...props} notes={this.state.notes} deleteNote={this.deleteNote} />}
+                        <DeleteNotes {...props} notes={this.state.notes} deleteNotes={this.deleteNotes} />}
                 />
 
                 <Route

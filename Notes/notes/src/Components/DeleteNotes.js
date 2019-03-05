@@ -9,7 +9,7 @@ class DeleteNotes extends Component {
         e.preventDefault();
         Axios
             .delete(`https://fe-notes.herokuapp.com/note/delete/${this.props.match.params.id}`)
-            .then(response => {
+            .then(_Response => {
                 this.props.history.push('/');
             })
             .catch(err => console.log(err));

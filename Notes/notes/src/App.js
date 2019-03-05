@@ -9,7 +9,7 @@ import PreviewNotes from './Components/PreviewNotes';
 import CreateNotes from './Components/CreateNotes';
 import ViewNotes from './Components/ViewNotes';
 import DeleteNotes from './Components/DeleteNotes';
-import EditNotes from './Components/Editnotes';
+import EditNotes from './Components/EditNotes';
 
 class App extends Component {
   render() {

@@ -37,7 +37,7 @@
 
 .notesContainer .notes h3 {
     border-bottom: rgb(136, 126, 136);
-    margin-top: 5px;
+    margin-top: -20px;
 }
 
 .notesContainer .notes p {
@@ -120,7 +120,7 @@
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: underline;
-    margin-right: 25px;
+    margin-right: 20px;
     margin-top: 20px;
 }
 

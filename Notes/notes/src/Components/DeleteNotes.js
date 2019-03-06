@@ -24,7 +24,7 @@ class DeleteNotes extends Component {
                 <div className="confirm">
                     <div className="confermMessage">Are you sure want to delete this?</div>
                     <div className="delete">
-                        <Link to={`/`} onClick={this.deleteNotes}>
+                        <Link to={`/`} onClick={this.DeleteNotes}>
                             <div className="ContainerDelete">Delete</div>
                         </Link>
                         <Link to={`/notes/${this.props.match.params.id}`}>

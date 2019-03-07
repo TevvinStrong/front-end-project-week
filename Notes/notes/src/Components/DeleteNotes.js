@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 
 class DeleteNotes extends Component {
-    deleteNote = (e) => {
+    DeleteNotes = (e) => {
         e.preventDefault();
         Axios
             .delete(`https://fe-notes.herokuapp.com/note/delete/${this.props.match.params.id}`)
-            .then(_Response => {
+            .then(Response => {
                 this.props.history.push('/');
             })
             .catch(err => console.log(err));

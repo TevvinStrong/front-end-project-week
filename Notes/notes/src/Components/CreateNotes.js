@@ -17,13 +17,14 @@ class CreateNotes extends Component {
     }
 
     addNew = (e) => {
+        console.log(this.props);
         e.preventDefault();
         Axios
             .post('https://fe-notes.herokuapp.com/note/create', this.state)
 
             .then((response) => {
-
-                this.props.addNoteOnServer(response.data)
+                console.log(response);
+                //this.props.addNoteOnServer(response.data)
             })
             .catch(err => console.log('Error', err));
         this.setState({

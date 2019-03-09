@@ -5,8 +5,8 @@
     min-width: 450px;
     vertical-align: top;
     padding-left: 2%;
-    background-color: #dddddd;
-    border: 1px solid #A0A0A0;
+    background-color: #f2f1f2;
+    border: 1px solid #c7c7c7;
     margin-left: 25px;
 }
 
@@ -24,9 +24,10 @@
 }
 
 .notesContainer .notes .note { 
+    font-weight: 400;
     text-decoration: none;
     border: 1px solid #959898;
-    background: #f2f1f2;
+    background: white;
     margin: 0 20px 30px 0;
     color: #282b2a;
     padding: 20px;
@@ -39,10 +40,12 @@
 .notesContainer .notes h3 {
     border-bottom: 1px solid silver;
     margin-top: -20px;
+    padding-top: 5px;
 }
 
 .notesContainer .notes p {
     font-size: 0.7rem;
+    font-weight: 400;
     line-height: 1.2;
     display: block;
     overflow: hidden;

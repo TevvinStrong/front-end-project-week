@@ -24,6 +24,7 @@
 }
 
 .notesContainer .notes .note { 
+    text-decoration: none;
     border: 1px solid #959898;
     background: #f2f1f2;
     margin: 0 20px 30px 0;
@@ -36,7 +37,7 @@
 }
 
 .notesContainer .notes h3 {
-    border-bottom: rgb(136, 126, 136);
+    border-bottom: 1px solid silver;
     margin-top: -20px;
 }
 
@@ -120,13 +121,13 @@
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: underline;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-top: 20px;
 }
 
 .notes h3 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .notes p {
